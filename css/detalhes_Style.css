@@ -1,0 +1,237 @@
+body{
+    background-image: url(../pexels-pixabay-41949.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: 100% 100%;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    margin: 0;
+
+}
+
+h2{
+    font-family: kanit;
+    font-size: 50px;
+    color: aliceblue;
+    margin: 0;
+}
+
+p{
+    font-family: kanit;
+    font-size: 40px;
+    color: aliceblue;
+    margin: 0;
+}
+span{
+    font-family: kanit;
+    font-size: 40px;
+    color: aliceblue;
+    margin: 0;
+}
+.detalhes{
+    padding: 100px;
+}
+
+.detalhesHeader{
+    display: flex;
+    justify-content: center;
+}
+
+
+.infoPais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 1300px;
+    border-radius: 20px;
+    position: relative;
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+
+}
+.bandeira{
+    display: flex;
+    justify-content: center;
+    padding: 30px;   
+    margin: 20px;
+    width: 200px;
+    height: 500px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1300px;
+    height: 300px;
+    gap : 100px;
+    margin-top: 100px;
+
+}
+
+.Capital{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 750px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.id_Maps{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.GoogleMaps{
+    height: 100%;
+    width: 750px;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1300px;
+    height: 300px;
+    gap : 100px;
+    margin-top: 100px;
+
+}
+.Idioma{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Moeda{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Continente{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1300px;
+    height: 300px;
+    gap : 100px;
+    margin-top: 100px;
+
+}
+
+.Populacao{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 750px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AreaGeografica{
+    filter: contrast(1.1) brightness(0.95);
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 1px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    border: 2px solid white;
+    box-shadow: 0 0 25px black;
+    width: 750px;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

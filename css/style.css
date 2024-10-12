@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-image: url(../pexels-pixabay-41949.jpg);
+    background-position: left;
+    background-size: 100%;
+    backdrop-filter: blur(4px);
+
+    
+
+}
+
+
+.cardTitle{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: kanit;
+    text-align: center;
+    background-color: #050046;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 700px;
+    border: 2px solid white;
+}
+
+h2{
+    font-family: kanit;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.subHeader{
+    display: flex;
+    justify-content:center;
+    font-family: kanit;
+    color: white;
+}
+
+p{
+    font-family: kanit;
+    font-size: 17pt;
+}
+
+.todosPaises{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.05) 0px,
+        rgba(255, 255, 255, 0.05) 0px,
+        rgba(0, 0, 0, 0.05) 2px
+    );
+    padding: 70px;
+    border-radius: 35px;
+    border-color: white;
+    border: 2px solid white;
+
+}
+
+.pais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #10abb4;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pais>p{
+    width: 210px;
+    height: 80px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pais>img{
+    width: 214px;
+    height: 150px;
+}
+
+.pais:hover{
+    transform: scale(1.05) ;
+    
+}
